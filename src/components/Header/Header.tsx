@@ -36,7 +36,7 @@ const Header: React.FC = () => {
                     {t('projects')}
                 </Menu.Item>
                 <Menu.Item key="curriculum">
-                    {t('curriculum')}
+                   <Link to={"/resume"}> {t('curriculum')}</Link>
                 </Menu.Item>
             </Menu>
             <Dropdown overlay={menu} placement="bottomRight">

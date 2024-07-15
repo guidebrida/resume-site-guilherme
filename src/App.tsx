@@ -2,6 +2,8 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './components/Header/Header';
 import Contact from './components/Contact/Contact';
+import Curriculum from './components/Curriculum/Curriculum';
+
 import './App.css';
 import './i18n';
 import { useTranslation } from 'react-i18next';
@@ -18,6 +20,7 @@ const App: React.FC = () => {
                 <div className="content">
                     <Routes>
                         <Route path="/contact" element={<Contact />} />
+                        <Route path="/resume" element={<Curriculum />} />
                         <Route path="/" element={<Home />} />
                     </Routes>
                 </div>

@@ -7,5 +7,10 @@
   "app_description": "Descrição",
   "projects": "Projetos",
   "contact_information": "Informações de contato",
-  "insert_details": "Insert your contact details here."
+  "insert_details": "Insert your contact details here.",
+  "software-enginner": "Desenvolvedor pleno",
+  "software-enginner-jr": "Desenvolvedor pleno",
+  "software-enginner-xp": "09/2021 - atualmente",
+  "job-description": "Descrição do trabalho"
+
 }

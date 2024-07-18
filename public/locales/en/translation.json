@@ -5,13 +5,14 @@
   "language": "Language",
   "welcome": "Welcome",
   "app_description": "Description",
-  "projects": "projetos",
+  "projects": "Projects",
   "contact_information": "Contact Information",
   "insert_details": "Insert your contact details here.",
   "software-enginner": "Software enginner",
   "software-enginner-jr": "Junior software enginner",
   "software-enginner-xp": "09/2021 - current",
-  "job-description": "Job description"
+  "job-description": "Job description",
+  "language-selector-button": "Select the language"
 
 }
 

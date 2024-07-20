@@ -36,3 +36,17 @@
     transform: rotate(360deg);
   }
 }
+
+
+.react-player-wrapper {
+  max-width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.react-player {
+  width: 80%;
+  max-width: 560px; /* Adjust to set a maximum width */
+  height: auto;
+}

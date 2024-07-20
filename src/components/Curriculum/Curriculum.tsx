@@ -1,47 +1,67 @@
 import React from 'react';
-import { Timeline, Collapse } from 'antd';
-import { CaretRightOutlined } from '@ant-design/icons';
-import { useTranslation } from 'react-i18next';
+import {Timeline, Collapse, Image} from 'antd';
+import {CaretRightOutlined} from '@ant-design/icons';
+import {useTranslation} from 'react-i18next';
+import internPhoto from '../../images/estagio contratação.jpg';
 
-const { Panel } = Collapse;
+const {Panel} = Collapse;
 
 const Curriculum: React.FC = () => {
-    const { t } = useTranslation();
+    const {t} = useTranslation();
 
     return (
         <div className="curriculum">
             <h2>{t('curriculum')}</h2>
-            <Timeline mode="alternate">
-                <Timeline.Item label={t('software-engineer-xp')}>
-                    {t('software-engineer')}
+            <Timeline mode="left">
+                <Timeline.Item label={t('software-enginner')}>
                     <Collapse ghost>
-                        <Panel header={t('job-description')} key="1" showArrow={false} extra={<CaretRightOutlined />}>
-                                <p>• Criação de aplicações web e mobile utilizando tecnologias como Java, JDBC, Spring JavaEE, SQL, Angular, Kotlin, Kafka e Ionic.</p>
-                                <p>• Apoio a novos membros da equipe, promovendo o crescimento coletivo e o trabalho em equipe.</p>
-                                <p>• Uso de metodologias ágeis como Scrum e Kanban para garantir eficiência e qualidade no desenvolvimento.</p>
+                        <Panel header={<div>{t('job-description')} <CaretRightOutlined/></div>} key="1"
+                               showArrow={false}>
+                            <p>{t('MSG_SOFTW_1')}</p>
+                            <p>{t('MSG_SOFTW_2')}</p>
+                            <p>{t('MSG_SOFTW_3')}</p>
+                            <p>{t('MSG_SOFTW_4')}</p>
                         </Panel>
                     </Collapse>
                 </Timeline.Item>
 
-                <Timeline.Item label={t('junior-software-engineer-xp')}>
-                    {t('junior-software-engineer')}
+                <Timeline.Item label={t('MSG_SOFTWARE-ENGINNER-JR')}>
                     <Collapse ghost>
-                        <Panel header={t('job-description')} key="2" showArrow={false} extra={<CaretRightOutlined />}>
-                            <p>{t('junior-software-engineer-details')}</p>
+                        <Panel header={<div>{t('job-description')} <CaretRightOutlined/></div>} key="2"
+                               showArrow={false}>
+                            <p>{t('MSG_SOFTW_1')}</p>
+                            <p>{t('MSG_SOFTW_3')}</p>
+                            <p>{t('MSG_SOFTW_4')}</p>
                         </Panel>
                     </Collapse>
                 </Timeline.Item>
 
                 <Timeline.Item label={t('internship-xp')}>
-                    {t('internship')}
                     <Collapse ghost>
-                        <Panel header={t('job-description')} key="3" showArrow={false} extra={<CaretRightOutlined />}>
-                            <p>{t('internship-details')}</p>
+                        <Panel header={<div>{t('job-description')} <CaretRightOutlined/></div>} key="3"
+                               showArrow={false}>
+                            <p>{t('MSG_INTERN_1')}</p>
+                            <p>{t('MSG_INTERN_2')}</p>
+                            <p>{t('MSG_INTERN_3')}</p>
+                            <p>{t('MSG_INTERN_4')}</p>
+                            <div style={{width: '60%', height: 'auto', marginBottom: '10px'}}><Image
+                                src={internPhoto}
+                                alt="Internship"
+                            /></div>
                         </Panel>
                     </Collapse>
                 </Timeline.Item>
 
-                <Timeline.Item label="2023-09-01">{t('event-4')}</Timeline.Item>
+                <Timeline.Item label={t('MSG_COMPUTER_TECHNICIAN')}>
+                    <Collapse ghost>
+                        <Panel header={<div>{t('job-description')} <CaretRightOutlined/></div>} key="3"
+                               showArrow={false}>
+                            <p>{t('MSG_IT_1')}</p>
+                            <p>{t('MSG_IT_2')}</p>
+                            <p>{t('MSG_IT_3')}</p>
+                        </Panel>
+                    </Collapse>
+                </Timeline.Item>
             </Timeline>
         </div>
     );

@@ -46,7 +46,7 @@
 }
 
 .react-player {
-  width: 80%;
-  max-width: 560px; /* Adjust to set a maximum width */
+  max-height: available;
+  max-width: available;
   height: auto;
 }

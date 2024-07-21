@@ -3,7 +3,6 @@
   "contact": "Contato",
   "curriculum": "Currículo",
   "language": "Idioma",
-
   "projects": "Projetos",
   "contact_information": "Informações de contato",
   "insert_details": "Insert your contact details here.",
@@ -26,9 +25,18 @@
   "MSG_IT_2": "• Diagnosticar e corrigir problemas de hardware e software para garantir operação contínua",
   "MSG_IT_3": "• Fornecer suporte técnico para assegurar o funcionamento correto dos simuladores",
   "welcome": "Bem-vindo ao Meu Portfólio",
-  "app_description": "Esta é uma breve descrição da aplicação.",
+  "app_description": "Esta é uma breve video de apresentação.",
   "about_me": "Sobre Mim",
-  "my_introduction": "Oi, eu sou Guilherme De Brida De Bona, um desenvolvedor full-stack de Santa Catarina, Brasil. Tenho mais de 3 anos de experiência na indústria e uma formação em ciência da computação pela UNESC.",
+  "my_introduction": "Bem-vindo à minha apresentação! Neste vídeo, eu forneço uma visão geral do meu background, habilidades e experiências. Espero que isso lhe dê uma compreensão clara de quem eu sou e o que posso oferecer. Por favor, reserve um momento para assistir ao vídeo, se puder",
   "visit_my_youtube": "Visite meu Canal no YouTube",
-  "MSG_GUILHERME": "Ola! meu nome e Guilherme"
+  "MSG_GUILHERME": "Ola! meu nome e Guilherme",
+  "download-resume": "Baixar o curriculo completo",
+  "contact_information": "Informações de Contato",
+  "contact_details_description": "Aqui estão meus detalhes de contato:",
+  "name": "Nome",
+  "email": "Email",
+  "linkedin": "LinkedIn",
+  "github": "GitHub"
 }
+
+

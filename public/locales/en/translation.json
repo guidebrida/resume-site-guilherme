@@ -26,12 +26,17 @@
   "MSG_IT_2": "• Diagnosed and fixed hardware and software issues to ensure smooth operation.",
   "MSG_IT_3": "• Provided technical support to ensure simulators functioned correctly",
   "welcome": "Welcome to My Portfolio",
-  "app_description": "This is a brief description of the application.",
+  "app_description": "This is a brief introduction video.",
   "about_me": "About Me",
-  "my_introduction": "Hi, I'm Guilherme De Brida De Bona, a full-stack developer from Santa Catarina, Brazil. I have over 3 years of experience in the industry and a background in computer science from UNESC.",
-  "visit_my_youtube": "Visit my YouTube Channel",
-  "MSG_GUILHERME": "Hello! my name is Guilherme"
-
+  "my_introduction": "Welcome to my presentation! In this video, I provide an overview of my background, skills, and experiences. I hope it gives you a clear understanding of who I am and what I can bring to the table. Please take a moment to watch the video if you could.",
+  "MSG_GUILHERME": "Hello! my name is Guilherme",
+  "download-resume": "Download the resume",
+  "contact_information": "Contact Information",
+  "contact_details_description": "Here are my contact details:",
+  "name": "Name",
+  "email": "Email",
+  "linkedin": "LinkedIn",
+  "github": "GitHub"
 
 }
 

@@ -1,7 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './components/Header/Header';
-import Contact from './components/Contact/Contact';
 import Curriculum from './components/Curriculum/Curriculum';
 import Footer from './components/Footer/Footer';
 import './App.css';
@@ -16,7 +15,6 @@ const App: React.FC = () => {
                 <Header />
                 <div className="content">
                     <Routes>
-                        <Route path="/contact" element={<Contact />} />
                         <Route path="/resume" element={<Curriculum />} />
                         <Route path="/" element={<Home />} />
                     </Routes>
@@ -32,16 +30,14 @@ const Home: React.FC = () => {
 
     const videoUrl =
         i18n.language === 'pt'
-            ? ''
-            : '';
+            ? 'https://youtu.be/NvF5KFt9-7o'
+            : 'https://youtu.be/NvF5KFt9-7o';
 
     return (
         <>
             <h1>{t('MSG_GUILHERME')}</h1>
             <p>{t('app_description')}</p>
             <div className="presentation">
-                <h2>{t('about_me')}</h2>
-                <p>{t('my_introduction')}</p>
                 <div className="react-player-wrapper">
                     <ReactPlayer
                         url={videoUrl}

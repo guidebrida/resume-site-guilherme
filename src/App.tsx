@@ -33,10 +33,25 @@ const Home: React.FC = () => {
             ? 'https://youtu.be/NvF5KFt9-7o'
             : 'https://youtu.be/NvF5KFt9-7o';
 
+    const skills = [
+        'Java', 'Spring Boot', 'Angular', 'React', 'SQL',
+        'PostgreSQL', 'Kotlin', 'Git', 'REST APIs', 'Apache Kafka',
+        'JWT', 'Ionic', 'Ant Design', 'C++'
+    ];
+
     return (
         <>
             <h1>{t('MSG_GUILHERME')}</h1>
-            <p>{t('app_description')}</p>
+            <div className="skills">
+                {skills.map(skill => (
+                    <span key={skill} className="badge">{skill}</span>
+                ))}
+            </div>
+            <div className="about-me">
+                <h2>{t('about_me_title')}</h2>
+                <p>{t('about_me_description')}</p>
+            </div>
+
             <div className="presentation">
                 <div className="react-player-wrapper">
                     <ReactPlayer

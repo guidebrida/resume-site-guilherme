@@ -6,13 +6,13 @@
   "projects": "Projects",
   "contact_information": "Contact Information",
   "insert_details": "Insert your contact details here.",
-  "software-enginner": "Software enginner | April/2023 - present",
-  "MSG_SOFTWARE-ENGINNER-JR": "Junior software enginner | September/2021 - march/2023",
+  "software-enginner": "Software enginner | Betha Sistemas | April/2023 - present",
+  "MSG_SOFTWARE-ENGINNER-JR": "Junior software enginner | Betha Sistemas | September/2021 - march/2023",
   "software-enginner-xp": "09/2021 - current",
-  "internship-xp": "Interniship in software development | April/2021 - September/2021",
+  "internship-xp": "Interniship in software development | Betha Sistemas | April/2021 - September/2021",
   "job-description": "Job description",
   "language-selector-button": "Select the language",
-  "MSG_COMPUTER_TECHNICIAN": "Computer technician | May/2020 - Dezember/2020 ",
+  "MSG_COMPUTER_TECHNICIAN": "Computer technician | Pro Racing Simuladores | May/2020 - Dezember/2020 ",
   "MSG_SOFTW_1": "•  Develop web and mobile applications using technologies such as Java, JDBC, Spring JavaEE, SQL, Angular, and Ionic.",
   "MSG_SOFTW_2": "• Support and mentor new team members, promoting collective growth and project success.",
   "MSG_SOFTW_3": "• Utilize agile methodologies like Scrum and Kanban to ensure efficiency and quality in development.",
@@ -36,7 +36,8 @@
   "name": "Name",
   "email": "Email",
   "linkedin": "LinkedIn",
-  "github": "GitHub"
-
+  "github": "GitHub",
+  "about_me_title": "About Me",
+  "about_me_description": "I am a software engineer from Santa Catarina, Brazil, with over 3 years of experience in the industry. I have hands-on experience in web and mobile application development using various technologies."
 }
 

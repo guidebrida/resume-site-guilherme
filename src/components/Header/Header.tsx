@@ -29,18 +29,19 @@ const Header: React.FC = () => {
     const options = [
         { label: <Link to="/">{t('home')}</Link>, key: 'home' },
         { label: <Link to="/projects">{t('projects')}</Link>, key: 'projects' },
-        { label: <Link to="/resume">{t('curriculum')}</Link>, key: 'curriculum' }
+        { label: <Link to="/resume">{t('curriculum')}</Link>, key: 'curriculum' },
+        {
+            label: <Button type="link" onClick={showModal} className="black-text-button">
+                {t('language-selector-button')}
+            </Button>,
+            key: 'language-selector'
+        }
     ];
 
     return (
         <Layout>
             <AntHeader className="header-container">
                 <Menu mode="horizontal" items={options} className="menu" />
-                <div className="language-button-container">
-                    <Button type="link" onClick={showModal} className="black-text-button">
-                        {t('language-selector-button')}
-                    </Button>
-                </div>
             </AntHeader>
             <Modal
                 title={t('language-selector-button')}

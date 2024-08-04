@@ -6,13 +6,13 @@
   "projects": "Projetos",
   "contact_information": "Informações de contato",
   "insert_details": "Insert your contact details here.",
-  "software-enginner": "Desenvolvedor pleno | Abril/2023 - Presente",
-  "MSG_SOFTWARE-ENGINNER-JR": "Desenvolvedor junior | Setembro/2021 - Março/2023",
+  "software-enginner": "Desenvolvedor pleno | Betha Sistemas | Abril/2023 - Presente",
+  "MSG_SOFTWARE-ENGINNER-JR": "Desenvolvedor junior | Betha Sistemas | Setembro/2021 - Março/2023",
   "software-enginner-xp": "09/2021 - atualmente",
-  "internship-xp": "Estagiario em desenvolvimento de software | Abril/2021 - Setembro/2021",
+  "internship-xp": "Estagiario em desenvolvimento de software | Betha Sistemas | Abril/2021 - Setembro/2021",
   "job-description": "Descrição do trabalho",
   "language-selector-button": "Selecione a lingua",
-  "MSG_COMPUTER_TECHNICIAN": "Tecnico de informatica | Maio/2020 - Dezembro/2020 ",
+  "MSG_COMPUTER_TECHNICIAN": "Tecnico de informatica | Pro Racing Simuladores | Maio/2020 - Dezembro/2020 ",
   "MSG_SOFTW_1": "• Criação de aplicações web e mobile utilizando tecnologias como Java, JDBC, Spring JavaEE, SQL, Angular, Kotlin, Kafka e Ionic.",
   "MSG_SOFTW_2": "• Apoio a novos membros da equipe, promovendo o crescimento coletivo e o trabalho em equipe.",
   "MSG_SOFTW_3": "• Uso de metodologias ágeis como Scrum e Kanban para garantir eficiência e qualidade no desenvolvimento.",
@@ -36,7 +36,9 @@
   "name": "Nome",
   "email": "Email",
   "linkedin": "LinkedIn",
-  "github": "GitHub"
+  "github": "GitHub",
+  "about_me_title": "Sobre Mim",
+  "about_me_description": "Sou um engenheiro de software de Santa Catarina, Brasil, com mais de 3 anos de experiência na indústria. Tenho experiência prática no desenvolvimento de aplicativos web e móveis usando várias tecnologias."
 }
 
 
